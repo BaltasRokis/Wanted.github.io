@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-primary: 'Varela Round', sans-serif;
+  --ff-secondary: 'Source Code Pro', monospace;
+
+  --fw-reg: 300;
+  --fw-bold: 900;
+
+  --clr-light: #FFFFE0;
+  --clr-dark: #303030;
+  --clr-accent: #743e88;
+  --clr-background: #582604d0;
+
+
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+
+  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+  0.125em 0.125em 0.25em rgba(0,0,0,.15);
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+  margin: 0;
+}
+img{
+    display: block;
+    max-width:100%;
+}
+strong{
+    font-weight: var(--fw-bold);
+}
+section{
+    padding: 0em 0em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+body{
+    background: var(--clr-background);
+    margin:0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+h1{
+    font-size: var(--fs-h1);
+}
+h2{
+    font-size: var(--fs-h2);
+  }
+h3{
+    font-size: var(--fs-h3);
+  }
+
+.intro {
+    position: relative;
+  }
