@@ -3,72 +3,41 @@
 *::after {
   box-sizing: border-box;
 }
-
-:root {
-  --ff-primary: 'Varela Round', sans-serif;
-  --ff-secondary: 'Source Code Pro', monospace;
-
-  --fw-reg: 300;
-  --fw-bold: 900;
-
-  --clr-light: #FFFFE0;
-  --clr-dark: #303030;
-  --clr-accent: #743e88;
-  --clr-background: #582604d0;
-
-
-  --fs-h1: 3rem;
-  --fs-h2: 2.25rem;
-  --fs-h3: 1.25rem;
-  --fs-body: 1rem;
-
-  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
-  0.125em 0.125em 0.25em rgba(0,0,0,.15);
-
-}
 html{
     scroll-behavior: smooth;
 }
-
-h1,
-h2,
-h3 {
-  line-height: 1;
+.background-image {
+  background-image: url("backgrounds/lentos.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  height: 100vh;
   margin: 0;
+  padding: 0;
+  position: relative;
 }
-img{
-    display: block;
-    max-width:100%;
+.poster-image{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height:95%;
 }
-strong{
-    font-weight: var(--fw-bold);
-}
-section{
-    padding: 0em 0em;
-}
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
+.backhair-image{
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height:70%;
 }
 
-body{
-    background: var(--clr-background);
-    margin:0;
-    font-family: var(--ff-primary);
-    font-size: var(--fs-body);
-    line-height: 1.6;
+.traits-image{
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height:70%;
 }
-h1{
-    font-size: var(--fs-h1);
-}
-h2{
-    font-size: var(--fs-h2);
-  }
-h3{
-    font-size: var(--fs-h3);
-  }
-
-.intro {
-    position: relative;
-  }
