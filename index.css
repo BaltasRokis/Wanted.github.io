@@ -6,7 +6,7 @@ html{
     scroll-behavior: smooth;
 }
 .background-image {
-  background-image: url("backgrounds/lentos.png");
+  background-image: url("backgrounds/Lentos.png");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 0;
