@@ -1,7 +1,6 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+*{
+  margin: 0;
+  padding: 0;
 }
 html{
     scroll-behavior: smooth;
@@ -22,15 +21,15 @@ html{
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  height:95%;
+  height:98%;
 }
 .backhair-image{
   z-index: 2;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  height:70%;
+  transform: translate(-50%, -46%);
+  height:60%;
 }
 
 .traits-image{
@@ -38,6 +37,6 @@ html{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  height:70%;
+  transform: translate(-50%, -46%);
+  height:60%;
 }
